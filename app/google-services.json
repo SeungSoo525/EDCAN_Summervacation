@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "612149333276",
+    "firebase_url": "https://edcan-summervacation.firebaseio.com",
+    "project_id": "edcan-summervacation",
+    "storage_bucket": "edcan-summervacation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612149333276:android:69c892ebbd388095ba7ed9",
+        "android_client_info": {
+          "package_name": "com.example.edcan_summervacation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612149333276-6j24no41thb8s8an7t2h98ggk4ksjj5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWjc5L3qYIhtO03BS2I7dTJW6_Ye6EPS8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612149333276-6j24no41thb8s8an7t2h98ggk4ksjj5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
