@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_1"
+        android:title="Memo"
+        android:icon="@drawable/note_icon"/>
+
+    <item
+        android:id="@+id/action_2"
+        android:title="Chat"
+        android:icon="@drawable/chat_icon"/>
+
+    <item
+        android:id="@+id/action_3"
+        android:title="More"
+        android:icon="@drawable/more_horiz_icon"/>
+</menu>
