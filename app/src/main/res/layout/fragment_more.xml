@@ -5,6 +5,10 @@
 
     <data>
 
+        <variable
+            name="user"
+            type="com.example.edcan_summervacation.UserModel" />
+
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -13,25 +17,31 @@
         android:padding="24dp">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/txt_more_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="username"
-            android:textSize="24sp"
-            app:layout_constraintBottom_toTopOf="@+id/btn_more_delete"
+            android:text="@{user.name, default = `Username`}"
+            android:textColor="@android:color/black"
+            android:textSize="28sp"
+            app:layout_constraintBottom_toTopOf="@+id/txt_more_info"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:layout_constrainedWidth="true"/>
 
         <TextView
+            android:id="@+id/txt_more_info"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="user info"
-            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@{user.email+`\n`+user.time,default = `email@email.com\n2020/00/00 00:00 AM`}"
+            android:textSize="16sp"
             app:layout_constraintBottom_toTopOf="@+id/btn_more_delete"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_more_name" />
 
         <Button
             android:id="@+id/btn_more_delete"
